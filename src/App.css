@@ -1,0 +1,66 @@
+.App {
+  /* text-align: center; */
+  background: #f2f4f7;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.display-flex {
+  display: flex
+}
+
+.card {
+  padding: 20px;
+  box-shadow: 0px 8px 22px -17px grey;
+  margin: auto;
+  border-radius: 2px 2px 2px 2px;
+  border: 0;
+}
+
+.backdropModal {
+  background: #f2f4f7;
+  z-index: 1;
+  opacity: 1 !important;
+}
+
+.modal-content {
+  box-shadow: 0px 8px 22px -17px grey;
+  margin: auto;
+  border-radius: 2px 2px 2px 2px;
+  border: 0;
+}
+
+.header {
+  border-bottom: 0
+}
+
+.App-intro {
+  width: 100%;
+}
+
+.card-inner {
+  justify-content: space-between;
+  display: flex;
+}
+
+.undone {
+  background: #ed437a;
+  color: white;
+  font-size: 12px;
+  padding: 4px 11px;
+  border-radius: 25px;
+}
+
+.done {
+  background: #65e1b6;
+  color: white;
+  font-size: 12px;
+  padding: 4px 11px;
+  border-radius: 25px;
+}
+
+th {
+  font-size: 12px;
+  color: grey;
+}
